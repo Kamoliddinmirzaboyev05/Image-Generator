@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono";
+}
+main {
+  width: 100vw;
+  height: 100vh;
+}
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  font-size: 22px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+form {
+    width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid gray;
+  border-radius: 12px;
+  padding: 8px 15px;
+}
+form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.searchBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(33, 93, 213);
+  font-size: 16px;
+  font-weight: 600;
+  gap: 15px;
+  border: none;
+  color: white;
+}
+.images {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.image {
+  width: 300px;
+  width: 400px;
+}
